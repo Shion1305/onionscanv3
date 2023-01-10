@@ -25,54 +25,25 @@ OnionScan has two primary goals:
  But by making these kinds of investigations easy, we hope to create a powerful
  incentive for new anonymity technology (see goal #1)
 
-## Installing
+## Quick install
 
-### A Note on Dependencies
-
-OnionScan requires either Go 1.6 or 1.7.
-
-In order to install OnionScan you will need the following dependencies not 
-provided by the core go standard library:
-
-* golang.org/x/net/proxy - For the Tor SOCKS Proxy connection.
-* golang.org/x/net/crypto - For PGP parsing
-* golang.org/x/net/html - For HTML parsing
-* github.com/rwcarlsen/goexif - For EXIF data extraction.
-* github.com/HouzuoGuo/tiedot/db - For crawl database.
-
-See <a href="https://github.com/s-rah/onionscan/wiki">the wiki</a> for guidance.
-
-### Grab with go get
-
-`go get github.com/s-rah/onionscan`
-
-### Compile/Run from git cloned source
-
-Once you have cloned the repository into somewhere that go can find it you can
-run `go install github.com/s-rah/onionscan` and then run the binary in `$GOPATH/bin/onionscan`.
-
-Alternatively, you can just do `go run github.com/s-rah/onionscan.go` to run without compiling.
+`go install github.com/415ALS/onionscanv3@latest`
 
 ## Quick Start
 
 For a simple report detailing the high, medium and low risk areas found with a
 hidden service:
 
-`onionscan notarealhiddenservice.onion`
+`/home/username/go/bin/onionscanv3 --torProxyAddress=127.0.0.1:9150 notarealhiddenservice.onion`
 
 The most interesting output comes from the verbose option:
 
-`onionscan --verbose notarealhiddenservice.onion`
+`/home/username/go/bin/onionscanv3 --torProxyAddress=127.0.0.1:9150 --verbose notarealhiddenservice.onion`
 
 There is also a JSON output, if you want to integrate with another program or 
 application:
 
-`onionscan --jsonReport notarealhiddenservice.onion`
-
-If you would like to use a proxy server listening on something other that 
-`127.0.0.1:9050`, then you can use the --torProxyAddress flag:
-
-`onionscan --torProxyAddress=127.0.0.1:9150 notarealhiddenservice.onion`
+`/home/username/go/bin/onionscanv3 --torProxyAddress=127.0.0.1:9150 --jsonReport notarealhiddenservice.onion`
 
 More detailed documentation on usage can be found in [doc](doc/README.md).
 

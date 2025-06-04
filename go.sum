@@ -1,0 +1,14 @@
+github.com/415ALS/onionscanv3 v0.0.0-20230110120630-8ee0192a42eb h1:Q2UtbjbkyFPW0Bx2EwcwxXIXmmY97a5U7lb1DJSjLpE=
+github.com/415ALS/onionscanv3 v0.0.0-20230110120630-8ee0192a42eb/go.mod h1:3nYe7ea/86JJ3fZO4jiDxFuFMDMdEXkp83vkzVyBv3k=
+github.com/HouzuoGuo/tiedot v0.0.0-20210905174726-ae1e16866d06 h1:FSsxozhq5B9sstCWB1WMvZU/j0zKFFga0F6Wo5+9DGg=
+github.com/HouzuoGuo/tiedot v0.0.0-20210905174726-ae1e16866d06/go.mod h1:J2FcoVwTshOscfh8D4LCCVRoHJJQTeCAEkeRSVGnLQs=
+github.com/rwcarlsen/goexif v0.0.0-20190401172101-9e8deecbddbd h1:CmH9+J6ZSsIjUK3dcGsnCnO41eRBOnY12zwkn5qVwgc=
+github.com/rwcarlsen/goexif v0.0.0-20190401172101-9e8deecbddbd/go.mod h1:hPqNNc0+uJM6H+SuU8sEs5K5IQeKccPqeSjfgcKGgPk=
+golang.org/x/crypto v0.38.0 h1:jt+WWG8IZlBnVbomuhg2Mdq0+BBQaHbtqHEFEigjUV8=
+golang.org/x/crypto v0.38.0/go.mod h1:MvrbAqul58NNYPKnOra203SB9vpuZW0e+RRZV+Ggqjw=
+golang.org/x/net v0.40.0 h1:79Xs7wF06Gbdcg4kdCCIQArK11Z1hr5POQ6+fIYHNuY=
+golang.org/x/net v0.40.0/go.mod h1:y0hY0exeL2Pku80/zKK7tpntoX23cqL3Oa6njdgRtds=
+golang.org/x/sys v0.33.0 h1:q3i8TbbEz+JRD9ywIRlyRAQbM0qF7hu24q3teo2hbuw=
+golang.org/x/sys v0.33.0/go.mod h1:BJP2sWEmIv4KK5OTEluFJCKSidICx8ciO85XgH3Ak8k=
+golang.org/x/term v0.32.0 h1:DR4lr0TjUs3epypdhTOkMmuF5CDFJ/8pOnbzMZPQ7bg=
+golang.org/x/term v0.32.0/go.mod h1:uZG1FhGx848Sqfsq4/DlJr3xGGsYMu/L5GW4abiaEPQ=
